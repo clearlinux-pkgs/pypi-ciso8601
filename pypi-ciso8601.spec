@@ -4,7 +4,7 @@
 #
 Name     : pypi-ciso8601
 Version  : 2.2.0
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/db/50/ed16ee9a645196a29d2b7222d77e7d266f63f7a6042f2ac6cbb18a2b98e4/ciso8601-2.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/db/50/ed16ee9a645196a29d2b7222d77e7d266f63f7a6042f2ac6cbb18a2b98e4/ciso8601-2.2.0.tar.gz
 Summary  : Fast ISO8601 date time parser for Python written in C
@@ -14,14 +14,6 @@ Requires: pypi-ciso8601-license = %{version}-%{release}
 Requires: pypi-ciso8601-python = %{version}-%{release}
 Requires: pypi-ciso8601-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: ciso8601
-Provides: ciso8601-python
-Provides: ciso8601-python3
-BuildRequires : nose
-BuildRequires : pytz
-BuildRequires : pytz-python
-BuildRequires : testscenarios
-BuildRequires : tox
 
 %description
 ciso8601
@@ -63,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641422856
+export SOURCE_DATE_EPOCH=1641855972
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
