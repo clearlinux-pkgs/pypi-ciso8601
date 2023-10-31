@@ -1,5 +1,5 @@
 PKG_NAME := pypi-ciso8601
-URL = https://files.pythonhosted.org/packages/05/29/39180b182b53acf7b68abd74f79df995fcb1eee077047cb265c16e227fbc/ciso8601-2.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ac/bc/cf42c1b0042f91c90a6b00244f63b6fb137af15e43e29f07bb72cf955be8/ciso8601-2.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
