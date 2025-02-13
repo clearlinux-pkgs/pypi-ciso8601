@@ -7,7 +7,7 @@
 #
 Name     : pypi-ciso8601
 Version  : 2.3.2
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/09/e9/d83711081c997540aee59ad2f49d81f01d33e8551d766b0ebde346f605af/ciso8601-2.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/09/e9/d83711081c997540aee59ad2f49d81f01d33e8551d766b0ebde346f605af/ciso8601-2.3.2.tar.gz
 Summary  : Fast ISO8601 date time parser for Python written in C
